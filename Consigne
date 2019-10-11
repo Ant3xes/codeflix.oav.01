@@ -1,0 +1,33 @@
+Step 1 : check if extension exist
+Step 2 : separer chaque partie de l'extension -> path.parse, en faire un objet dans une const 
+Step 3 : Verifier l'extension avec switch -> 
+in ext = 
+- .ini 
+- .en 
+- ."" -> check name
+/ default error
+
+Step 4 : lire le contenu du fichier = ReadFile
+
+
+
+
+
+
+
+
+- Transformer fichier .conf en .json sans commentaire
+- Recuperer categorie {
+    clé : "valeur"
+} 
+
+variable globale de node : process
+
+
+
+
+- fs.access : fichier existe ou pas
+- fs.exist : fichier existe ou pas -> boolean
+- Regex : quantifier, renvoie un tableaau
+- split fonction pour créer un tableau de l'occurence
+- match ou exec
